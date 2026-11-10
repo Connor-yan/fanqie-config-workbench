@@ -1,0 +1,220 @@
+{
+  "schemaVersion": "fanqie-workbench-v0.1",
+  "project": {
+    "title": "心动失焦",
+    "bookId": "",
+    "copyrightId": "",
+    "hongguoVersionId": "",
+    "recommendedVersion": "72500",
+    "backpack": true,
+    "orientation": "横屏",
+    "entranceHorizontal": "",
+    "entranceVertical": "",
+    "status": "示例：未确认的标题/ID/编号/数值不应直接提交"
+  },
+  "chapters": [
+    {
+      "key": "ch01",
+      "name": "第一章"
+    },
+    {
+      "key": "ch02",
+      "name": "第二章"
+    },
+    {
+      "key": "ch03",
+      "name": "第三章"
+    },
+    {
+      "key": "ch04",
+      "name": "第四章"
+    },
+    {
+      "key": "ch05",
+      "name": "第五章"
+    }
+  ],
+  "items": [
+    {
+      "key": "room_card",
+      "name": "酒店房卡",
+      "initial": 0,
+      "max": 1,
+      "description": "第一章酒店探索中出现的物品；是否属于可持有道具，待策划确认。",
+      "show": false,
+      "icon": "",
+      "ad": false,
+      "adPrompt": "",
+      "adReward": "",
+      "adEffect": ""
+    }
+  ],
+  "characters": [
+    {
+      "key": "ye_weiyao",
+      "gender": "女",
+      "name": "叶炜瑶",
+      "description": "第一章出现的角色；请策划提供经确认的人物档案文案。",
+      "portrait": "",
+      "attributes": [
+        {
+          "key": "ye_weiyao_affection",
+          "name": "好感度",
+          "initial": 0,
+          "max": "",
+          "description": "初始值0只是占位；上限与变化值需策划确认。",
+          "show": false,
+          "icon": "",
+          "ad": false,
+          "adPrompt": "",
+          "adReward": "",
+          "adEffect": ""
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "key": "ch01_01",
+      "chapterKey": "ch01",
+      "title": "酒店套房·环境探索",
+      "type": "主线剧情",
+      "platformNodeId": "",
+      "fillStatus": "待策划确认",
+      "videoNo": "",
+      "videoDramaId": "",
+      "optionTitle": "",
+      "traverse": false,
+      "countdown": false,
+      "countdownSeconds": "",
+      "timeoutTarget": "",
+      "timeoutDefault": "",
+      "endingType": "",
+      "endingDescription": "",
+      "endingGoto": "",
+      "endingOptions": "",
+      "notes": "来自第一章剧本“1-1”；环境探索要求依次解锁，与平台“遍历选项”不完全等价，需要实机确认。",
+      "options": [
+        {
+          "id": "c1",
+          "text": "床头柜",
+          "action": "跳转视频",
+          "target": "",
+          "conditionKey": "",
+          "conditionOperator": ">=",
+          "conditionValue": "",
+          "hint": "",
+          "deltaKey": "",
+          "delta": "",
+          "deltaVisualize": false,
+          "popupIcon": "",
+          "popupText": "",
+          "schema": ""
+        },
+        {
+          "id": "c2",
+          "text": "电视柜附近",
+          "action": "跳转视频",
+          "target": "",
+          "conditionKey": "",
+          "conditionOperator": ">=",
+          "conditionValue": "",
+          "hint": "",
+          "deltaKey": "",
+          "delta": "",
+          "deltaVisualize": false,
+          "popupIcon": "",
+          "popupText": "",
+          "schema": ""
+        },
+        {
+          "id": "c3",
+          "text": "沙发区域",
+          "action": "跳转视频",
+          "target": "",
+          "conditionKey": "",
+          "conditionOperator": ">=",
+          "conditionValue": "",
+          "hint": "",
+          "deltaKey": "",
+          "delta": "",
+          "deltaVisualize": false,
+          "popupIcon": "",
+          "popupText": "",
+          "schema": ""
+        }
+      ]
+    },
+    {
+      "key": "ch01_02",
+      "chapterKey": "ch01",
+      "title": "浴室传来吹风机声",
+      "type": "主线剧情",
+      "platformNodeId": "",
+      "fillStatus": "待策划确认",
+      "videoNo": "",
+      "videoDramaId": "",
+      "optionTitle": "",
+      "traverse": false,
+      "countdown": false,
+      "countdownSeconds": "",
+      "timeoutTarget": "",
+      "timeoutDefault": "",
+      "endingType": "",
+      "endingDescription": "",
+      "endingGoto": "",
+      "endingOptions": "",
+      "notes": "来自第一章剧本“1-2”；其中“穿好衣服再说”涉及叶炜瑶好感度微升，但具体变化值尚未确认。",
+      "options": [
+        {
+          "id": "c1",
+          "text": "主动走到浴室门口等",
+          "action": "跳转视频",
+          "target": "",
+          "conditionKey": "",
+          "conditionOperator": ">=",
+          "conditionValue": "",
+          "hint": "",
+          "deltaKey": "",
+          "delta": "",
+          "deltaVisualize": false,
+          "popupIcon": "",
+          "popupText": "",
+          "schema": ""
+        },
+        {
+          "id": "c2",
+          "text": "假装还在睡",
+          "action": "跳转视频",
+          "target": "",
+          "conditionKey": "",
+          "conditionOperator": ">=",
+          "conditionValue": "",
+          "hint": "",
+          "deltaKey": "",
+          "delta": "",
+          "deltaVisualize": false,
+          "popupIcon": "",
+          "popupText": "",
+          "schema": ""
+        },
+        {
+          "id": "c3",
+          "text": "穿好衣服再说",
+          "action": "跳转视频",
+          "target": "",
+          "conditionKey": "",
+          "conditionOperator": ">=",
+          "conditionValue": "",
+          "hint": "",
+          "deltaKey": "",
+          "delta": "",
+          "deltaVisualize": false,
+          "popupIcon": "",
+          "popupText": "",
+          "schema": ""
+        }
+      ]
+    }
+  ]
+}

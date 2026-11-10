@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>番茄互动剧 · 配置工作台（《心动失焦》演示）</title>
+<link rel="stylesheet" href="./styles.css"></head>
+<body>
+<header><div><h1>番茄互动剧 · 配置工作台 <span style="font-size:12px;color:#a9c7ee">V0.1</span></h1><small>《心动失焦》演示数据 · 供策划 / 配置人员 / 程序协作</small></div><div class="actions"><button class="secondary" data-act="import">导入 JSON</button><button class="primary" data-act="export">保存项目 JSON</button><input id="importFile" type="file" accept=".json,application/json" style="display:none"></div></header>
+<div class="app"><aside class="sidebar"><div class="sidebox" id="nav"></div><div class="small" style="padding:15px 7px">本工具完全离线；不登录番茄、不上传数据。关闭或刷新前请导出 JSON，文件可在团队中传递。<hr class="rule">数据源是工作底稿，不是番茄官方导入格式。</div></aside><main><div class="notice"><b>重要：</b>此工具生成的是配置底稿与填报清单。官方 2026/07 指引没有说明平台支持直接导入或 API；版权中台视频上传、获取版本 ID、后台录入和点击“保存”，仍需要人工完成。</div><div id="content" class="panel"></div><div class="footer">依据《番茄小说互动剧配置平台操作指引（2026/07）》第 2 节设计；工具中的 ID、视频编号及数值仅在经过策划和运营确认后可用于正式提交。</div></main></div>
+<script src="./app.js"></script>
+</body></html>
